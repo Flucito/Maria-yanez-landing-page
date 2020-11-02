@@ -2,14 +2,17 @@ import React from 'react';
 import { Nav } from './components/Nav';
 import { News } from './components/News';
 import Slider from './components/Slider';
-
+import { Form } from './components/Form';
+import { Footer } from './components/Footer';
 const App = () => {
   return (
     <div >
       <Nav />
       <Slider />
-      <h1 className="title">Noticias</h1>
       <News />
+      <Form />
+      <Footer />
+
     </div>
 
 
